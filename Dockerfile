@@ -1,5 +1,5 @@
 # 使用官方 PHP-Apache 镜像
-FROM daocloud.io/php:7.1-apache
+FROM daocloud.io/nginx
 
 # /var/www/html/ 为 Apache 目录
-COPY . /var/www/html/
+COPY . /usr/local/nginx/html
